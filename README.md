@@ -2,7 +2,7 @@
 
 A Pattern Recognition system capable of distinguishing between **Blues, Reggae, and Classical** music genres with 100% accuracy. This project implements **Gaussian Mixture Models (GMM)** trained via a custom **Expectation-Maximization (EM)** algorithm, utilizing **Mel-Frequency Cepstral Coefficients (MFCC)** as feature vectors.
 
-![Feature Space Visualization](assets/scatter_plot.png)
+![Feature Space Visualization](feature_scatter.png)
 *Figure: 2D Projection of the Feature Space showing clear clustering of genres.*
 
 ## 🚀 Key Features
@@ -17,7 +17,7 @@ A Pattern Recognition system capable of distinguishing between **Blues, Reggae, 
 ## 📂 Project Structure
 * `src/main.m`: Core pipeline. Extracts features, trains models, and runs the classification test.
 * `src/create_graphs.m`: Generates visualizations of the feature space.
-* `docs/`: Contains the detailed [Final Project Report](docs/Final_Report.pdf).
+* `docs/`: Contains the detailed [Final Project Report](voice_final.pdf).
 
 ## 📊 Performance
 The system was evaluated on a test set (unseen during training) with two model orders ($M$ = number of Gaussian components).
@@ -30,7 +30,7 @@ The system was evaluated on a test set (unseen during training) with two model o
 ### Visualization
 As seen below, the spectral textures of the genres are distinct. Classical music (right) shows continuity, while Blues and Reggae exhibit rhythmic transient patterns.
 
-![Heatmap Comparison](assets/heatmap.png)
+![Heatmap Comparison](mhcc_comparison.png)
 
 ## 🛠️ Installation & Usage
 
@@ -58,8 +58,7 @@ Where parameters $\lambda = \{w_i, \mu_i, \Sigma_i\}$ are estimated using the it
 1.  **E-Step:** Compute posterior probabilities.
 2.  **M-Step:** Update weights, means, and variances.
 
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 ## 👤 Author
 **Nikos Mavros** - *University of Thessaly*
