@@ -30,7 +30,7 @@ The system was evaluated on a test set (unseen during training) with two model o
 ### Visualization
 As seen below, the spectral textures of the genres are distinct. Classical music (right) shows continuity, while Blues and Reggae exhibit rhythmic transient patterns.
 
-![Heatmap Comparison](mhcc_comparison.png)
+![Heatmap Comparison](mfcc_comparison.png)
 
 ## 🛠️ Installation & Usage
 
