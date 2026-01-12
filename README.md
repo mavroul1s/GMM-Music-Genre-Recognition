@@ -2,7 +2,7 @@
 
 A Pattern Recognition system capable of distinguishing between **Blues, Reggae, and Classical** music genres with 100% accuracy. This project implements **Gaussian Mixture Models (GMM)** trained via a custom **Expectation-Maximization (EM)** algorithm, utilizing **Mel-Frequency Cepstral Coefficients (MFCC)** as feature vectors.
 
-![Feature Space Visualization](feature_scatter.png)
+![Feature Space Visualization](assets/feature_scatter.png)
 *Figure: 2D Projection of the Feature Space showing clear clustering of genres.*
 
 ## 🚀 Key Features
@@ -17,7 +17,7 @@ A Pattern Recognition system capable of distinguishing between **Blues, Reggae, 
 ## 📂 Project Structure
 * `src/main.m`: Core pipeline. Extracts features, trains models, and runs the classification test.
 * `src/create_graphs.m`: Generates visualizations of the feature space.
-* `docs/`: Contains the detailed [Final Project Report](voice_final.pdf).
+* `docs/`: Contains the detailed [Final Project Report](docs/voice_final.pdf).
 
 ## 📊 Performance
 The system was evaluated on a test set (unseen during training) with two model orders ($M$ = number of Gaussian components).
@@ -30,7 +30,7 @@ The system was evaluated on a test set (unseen during training) with two model o
 ### Visualization
 As seen below, the spectral textures of the genres are distinct. Classical music (right) shows continuity, while Blues and Reggae exhibit rhythmic transient patterns.
 
-![Heatmap Comparison](mfcc_comparison.png)
+![Heatmap Comparison](assets/mfcc_comparison.png)
 
 ## 🛠️ Installation & Usage
 
