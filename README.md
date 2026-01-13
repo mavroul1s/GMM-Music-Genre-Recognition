@@ -1,5 +1,12 @@
 # GMM-Based Music Genre Recognition System
 
+**Course:** ECE443 Speech and Audio Processing, university of thessaly 
+**Author:** Nikos Mavros
+
+![Matlab](https://img.shields.io/badge/matlab%2B-blue)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+
 A Pattern Recognition system capable of distinguishing between **Blues, Reggae, and Classical** music genres with 100% accuracy. This project implements **Gaussian Mixture Models (GMM)** trained via a custom **Expectation-Maximization (EM)** algorithm, utilizing **Mel-Frequency Cepstral Coefficients (MFCC)** as feature vectors.
 
 ![Feature Space Visualization](assets/feature_scatter.png)
