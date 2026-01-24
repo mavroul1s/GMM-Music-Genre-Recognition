@@ -24,7 +24,7 @@ A Pattern Recognition system capable of distinguishing between **Blues, Reggae, 
 ## 📂 Project Structure
 * `src/main.m`: Core pipeline. Extracts features, trains models, and runs the classification test.
 * `src/create_graphs.m`: Generates visualizations of the feature space.
-* `docs/`: Contains the detailed [Final Project Report](docs/voice_final.pdf).
+* `docs/`: Contains the detailed [Final Project Report](docs/report.pdf).
 * `assets/`: Contains all the plots was generated in the `src/create_graphs.m`.
 * `model/`: Contains all the matrixies that were created in the `src/main.m`.
 
